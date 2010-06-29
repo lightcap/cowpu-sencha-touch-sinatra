@@ -2,4 +2,4 @@ sinatra
 activerecord
 geokit
 json
-rack-rack-contrib
+rack-contrib
