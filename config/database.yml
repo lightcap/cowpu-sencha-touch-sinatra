@@ -1,0 +1,7 @@
+production:
+  adapter: mysql
+  database: whiteroom
+  host: localhost
+  username: root
+  password:
+  socket: /var/run/mysqld/mysqld.sock
