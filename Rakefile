@@ -1,5 +1,5 @@
 require 'whiteroom'
-require 'vendor/sinatra-activerecord/lib/sinatra/activerecord/rake.rb'
+require 'activerecord'
 
 ActiveRecord::Base.logger = Logger.new(STDOUT)
 ActiveRecord::Migration.verbose = true

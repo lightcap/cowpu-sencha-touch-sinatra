@@ -11,8 +11,8 @@ dbconfig = YAML.load(File.read('config/database.yml'))
 ActiveRecord::Base.establish_connection dbconfig['production']
 
 configure do
-  LOGGER = Logger.new("sinatra.log") 
-  ActiveRecord::Base.logger = LOGGER
+  #LOGGER = Logger.new("sinatra.log") 
+  #ActiveRecord::Base.logger = LOGGER
 end
  
 helpers do
