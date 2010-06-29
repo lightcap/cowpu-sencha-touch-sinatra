@@ -1,4 +1,5 @@
 sinatra
+sinatra-activerecord
 activerecord
 geokit
 json
